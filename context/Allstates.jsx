@@ -25,7 +25,7 @@ const Allstates = (props) => {
     const [difficulty, setdifficulty] = useState("All")
     const [part, setpart] = useState("All");
     const [inputdata, setinputdata] = useState("");
-    const [level, setlevel] = useState([easy, medium, hard]);
+    const [level, setlevel] = useState(["easy", "medium", "hard"]);
     const [allbodyparts, setallbodyparts] = useState()
 
     // route for search bar:
